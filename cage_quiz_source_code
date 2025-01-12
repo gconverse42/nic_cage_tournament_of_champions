@@ -25,7 +25,7 @@ if answer1 == "B":
 else:
 
     print("""
-    WRONG! Mike Figgis said this of Cage, in praise of his touching portrayal of late-stage alcoholism in Leaving Las Vegas.
+WRONG! Mike Figgis said this of Cage, in praise of his touching portrayal of late-stage alcoholism in Leaving Las Vegas.
           """)
 
 print("QUESTION TWO:")
@@ -47,7 +47,7 @@ if answer2 == "D":
 else:
 
     print("""
-    WRONG! Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of a tortured Vietnam veteran in Birdy.
+WRONG! Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of a tortured Vietnam veteran in Birdy.
     """)
 
 print("QUESTION THREE:")
@@ -69,7 +69,7 @@ if answer3 == "B":
 else:
 
     print("""
-    WRONG! To inter his mortal remains, Cage has prepared an obsidian pyramid tomb in a historic above ground cemetery in the Jazz Quarter of New Orleans.
+WRONG! To inter his mortal remains, Cage has prepared an obsidian pyramid tomb in a historic above ground cemetery in the Jazz Quarter of New Orleans.
     """)
 
 print("QUESTION FOUR:")
@@ -91,7 +91,7 @@ if answer4 == "C":
 else:
 
     print("""
-    WRONG! As far as we are aware, Nic Cage has no interest in falsified religious artifacts. Everything else is true, though.
+WRONG! As far as we are aware, Nic Cage has no interest in falsified religious artifacts. Everything else is true, though.
     """)
 
 print("QUESTION FIVE:")
@@ -113,7 +113,7 @@ if answer5 == "A":
 else:
 
     print("""
-    WRONG! Nicolas Cage was born Nicolas Kim Coppola.
+WRONG! Nicolas Cage was born Nicolas Kim Coppola.
     """)
 
 print("QUESTION SIX:")
@@ -122,7 +122,7 @@ Which of the following has Nicolas Cage eaten on screen?
 A: Cow eyeball
 B: Raw fish
 C: Cockroach
-D: Bees
+D: The Bees
 """)
 
 answer6 = str(input())
@@ -135,7 +135,7 @@ if answer6 == "C":
 else:
 
     print("""
-    WRONG! Nicolas Cage ate a cockroach on screen, in his cult classic Vampire's Kiss.
+WRONG! Nicolas Cage ate a cockroach on screen, in his cult classic Vampire's Kiss.
     """)
 
 print("QUESTION SEVEN:")
@@ -157,7 +157,7 @@ if answer7 == "D":
 else:
 
     print("""
-    WRONG! At the peak of his stardom, Nicolas Cage's agents had to talk him out of taking on independent movies under the pseudonym Miles Lovecraft.
+WRONG! At the peak of his stardom, Nicolas Cage's agents had to talk him out of taking on independent movies under the pseudonym Miles Lovecraft.
     """)
 
 print("QUESTION EIGHT:")
@@ -179,10 +179,55 @@ if answer8 == "C":
 else:
 
     print("""
-    WRONG! Unfortunately, Nicolas Cage has never worked with John Carpenter.
+WRONG! Unfortunately for us all, Nicolas Cage has never worked with John Carpenter.
     """)
 
-score = 100 * float(score/8)
+print("QUESTION NINE:")
+print("""
+Nicolas Cage named his first son Weston, and his second son what?
+A: Charles Xavier
+B: Kal=El
+C: Cesare
+D: Bruce Wayne
+""")
+
+answer9 = str(input())
+
+if answer9 == "B":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+WRONG! Nicolas Cage's second son is named Kal-El Cage, in honor of Superman, who he nearly played.
+    """)
+
+print("QUESTION TEN:")
+print("""
+Upon making a surprise appearance at a public marathon of the complete CAGEOGRAPHY, Nicolas Cage favored the audience with a dramatic reading of what?"
+A: The Tell-Tale Heart
+B: I Have No Mouth and I Must Scream
+C: The Lottery
+D: In the Mountains of Madness
+""")
+
+answer10 = str(input())
+
+if answer10 == "A":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+WRONG! Upon crashing a CAGEATHON in an Austin theater, Cage blessed us mere mortals with a reading of 'The Tell-Tale Heart'.
+    """)
+
+
+score = 100 * float(score/10)
 
 print("Your score will now be tabulated according to our patented CAGE GAUGE.")
 print("YOU SCORED " + str(score) + "%")
@@ -201,6 +246,11 @@ elif 79 < score < 89:
 
 elif 79 < score < 89:
     print("You have attained the rank of CAGE EMERITUS, but the CAGE CABAL does not yet grant you the title of CAGE SAGE.")
+
+elif score == 100:
+    print("You are a true CAGE SAGE. The gods kneel before your titanic prowess.")
+
+print("Thank you for testing your CAGECRAFT at the NICOLAS CAGE TOURNAMENT OF CHAMPIONS!")
 
 elif score == 100:
     print("You are a true CAGE SAGE. The gods kneel before your titanic prowess.")
