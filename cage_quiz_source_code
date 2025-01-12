@@ -235,17 +235,17 @@ print("YOU SCORED " + str(score) + "%")
 if score < 59:
     print("Get out of here.")
 
-elif 59 < score < 69:
+elif 59 < score < 70:
     print("You have attained the rank of CAGE PLEBEIAN. It could be worse.")
 
-elif 69 < score < 79:
+elif 69 < score < 80:
     print("You have attained the rank of CAGE JOURNEYMAN. A good start on your journey to NIC NIRVANA.")
 
-elif 79 < score < 89:
+elif 79 < score < 90:
     print("You have attained the rank of CAGE AFICIONADO. Study the sacred texts, and you will be sure to find a place in the CAGE CABAL.")
 
-elif 79 < score < 89:
-    print("You have attained the rank of CAGE EMERITUS, but the CAGE CABAL does not yet grant you the title of CAGE SAGE.")
+elif 89 < score < 99:
+    print("You have attained the rank of CAGEHEAD EMERITUS, but the CAGE CABAL does not yet grant you the title of CAGE SAGE.")
 
 elif score == 100:
     print("You are a true CAGE SAGE. The gods kneel before your titanic prowess.")
