@@ -1,0 +1,208 @@
+print("""
+Welcome to The NICOLAS CAGE TOURNAMENT OF CHAMPIONS, a trivia game to test your knowledge about the greatest actor alive.
+Do YOU have what it takes to become a CAGE SAGE?
+WITHOUT FURTHER ADO:
+""")
+
+score = 0
+
+print("QUESTION ONE:")
+print("""
+Which of the following directors described working with Nicolas Cage as 'like Scorsese meeting De Niro'?
+A: David Lynch
+B: Mike Figgis
+C: Robert Bierman
+D: Jerry Bruckheimer
+""")
+
+answer1 = str(input())
+
+if answer1 == "B":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! Mike Figgis said this of Cage, in praise of his touching portrayal of late-stage alcoholism in Leaving Las Vegas.
+          """)
+
+print("QUESTION TWO:")
+print("""
+In which of the following movies did Nicolas Cage attempt to 'forget what his face looked like' as part of his acting process?
+A: Bangkok Dangerous
+B: Drive Angry
+C: Wild at Heart
+D: Birdy
+""")
+
+answer2 = str(input())
+
+if answer2 == "D":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of a tortured Vietnam veteran in Birdy.
+    """)
+
+print("QUESTION THREE:")
+print("""
+Nicolas Cage's mortal remains will be interred in an obsidian pyramid in which of the following locations?
+A: Micronesian private island
+B: Historic site in New Orleans
+C: Family cemetery in Los Angeles
+D: Casino in Las Vegas
+""")
+
+answer3 = str(input())
+
+if answer3 == "B":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! To inter his mortal remains, Cage has prepared an obsidian pyramid tomb in a historic above ground cemetery in the Jazz Quarter of New Orleans.
+    """)
+
+print("QUESTION FOUR:")
+print("""
+Which of the following bizarre objects has Nicolas Cage NOT purchased?
+A: The most haunted house in America, previously owned by a serial killer
+B: Dinosaur skull, subsequently repatriated to the government of Mongolia
+C: A medieval forgery of the Shroud of Turin
+D: An octopus, purported to help him with his acting
+""")
+
+answer4 = str(input())
+
+if answer4 == "C":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! As far as we are aware, Nic Cage has no interest in falsified religious artifacts. Everything else is true, though.
+    """)
+
+print("QUESTION FIVE:")
+print("""
+Nicolas Cage changed his name to avoid accusations of nepotism. He once shared a surname with which of the following directors?
+A: Francis Ford Coppola
+B: Sergio Leone
+C: Federico Fellini
+D: George A. Romero
+""")
+
+answer5 = str(input())
+
+if answer5 == "A":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! Nicolas Cage was born Nicolas Kim Coppola.
+    """)
+
+print("QUESTION SIX:")
+print("""
+Which of the following has Nicolas Cage eaten on screen?
+A: Cow eyeball
+B: Raw fish
+C: Cockroach
+D: Bees
+""")
+
+answer6 = str(input())
+
+if answer6 == "C":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! Nicolas Cage ate a cockroach on screen, in his cult classic Vampire's Kiss.
+    """)
+
+print("QUESTION SEVEN:")
+print("""
+Which of the following authors did Nicolas Cage nearly name his alter ego after?
+A: Bram Stoker
+B: Jack Kirby
+C: Edgar Allan Poe
+D: H.P. Lovecraft
+""")
+
+answer7 = str(input())
+
+if answer7 == "D":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! At the peak of his stardom, Nicolas Cage's agents had to talk him out of taking on independent movies under the pseudonym Miles Lovecraft.
+    """)
+
+print("QUESTION EIGHT:")
+print("""
+Which of the following directors has NOT worked with Nicolas Cage?
+A: John Woo
+B: David Lynch
+C: John Carpenter
+D: Martin Scorsese
+""")
+
+answer8 = str(input())
+
+if answer8 == "C":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+    WRONG! Unfortunately, Nicolas Cage has never worked with John Carpenter.
+    """)
+
+score = 100 * float(score/8)
+
+print("Your score will now be tabulated according to our patented CAGE GAUGE.")
+print("YOU SCORED " + str(score) + "%")
+
+if score < 59:
+    print("Get out of here.")
+
+elif 59 < score < 69:
+    print("You have attained the rank of CAGE PLEBEIAN. It could be worse.")
+
+elif 69 < score < 79:
+    print("You have attained the rank of CAGE JOURNEYMAN. A good start on your journey to NIC NIRVANA.")
+
+elif 79 < score < 89:
+    print("You have attained the rank of CAGE AFICIONADO. Study the sacred texts, and you will be sure to find a place in the CAGE CABAL.")
+
+elif 79 < score < 89:
+    print("You have attained the rank of CAGE EMERITUS, but the CAGE CABAL does not yet grant you the title of CAGE SAGE.")
+
+elif score == 100:
+    print("You are a true CAGE SAGE. The gods kneel before your titanic prowess.")
+
+print("Thank you for testing your CAGECRAFT at the NICOLAS CAGE TOURNAMENT OF CHAMPIONS!")
