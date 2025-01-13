@@ -47,7 +47,7 @@ if answer2 == "D":
 else:
 
     print("""
-WRONG! Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of an injured veteran in 'Birdy'.
+WRONG! Nicolas Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of an injured veteran in 'Birdy'.
     """)
 
 print("QUESTION THREE:")
@@ -288,8 +288,6 @@ elif score == 100:
 You are a true CAGE SAGE!
 The gods themselves kneel before your titanic prowess. The CAGE CABAL welcomes you, O Enlightened One!
 """)
-
-print("Thank you for testing your CAGECRAFT at the NICOLAS CAGE TOURNAMENT OF CHAMPIONS!")
 
 elif score == 100:
     print("You are a true CAGE SAGE. The gods kneel before your titanic prowess.")
