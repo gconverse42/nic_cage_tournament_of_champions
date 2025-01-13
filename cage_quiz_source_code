@@ -1,5 +1,5 @@
 print("""
-Welcome to The NICOLAS CAGE TOURNAMENT OF CHAMPIONS, a trivia game to test your knowledge about the greatest actor alive.
+Welcome to The NICOLAS CAGE TOURNAMENT OF CHAMPIONS, a test of your knowledge about the greatest actor of all time.
 Do YOU have what it takes to become a CAGE SAGE?
 WITHOUT FURTHER ADO:
 """)
@@ -8,10 +8,10 @@ score = 0
 
 print("QUESTION ONE:")
 print("""
-Which of the following directors described working with Nicolas Cage as 'like Scorsese meeting De Niro'?
-A: David Lynch
+Which of the following directors described working with Nicolas Cage as 'like I was Scorsese, meeting De Niro for the first time'?
+A: Joel Coen
 B: Mike Figgis
-C: Robert Bierman
+C: Ethan Coen
 D: Jerry Bruckheimer
 """)
 
@@ -25,16 +25,16 @@ if answer1 == "B":
 else:
 
     print("""
-WRONG! Mike Figgis said this of Cage, in praise of his touching portrayal of late-stage alcoholism in Leaving Las Vegas.
+WRONG! Mike Figgis said this in praise of Nicolas Cage's Oscar-winning portrayal of late-stage alcoholism in 'Leaving Las Vegas'.
           """)
 
 print("QUESTION TWO:")
 print("""
 In which of the following movies did Nicolas Cage attempt to 'forget what his face looked like' as part of his acting process?
-A: Bangkok Dangerous
-B: Drive Angry
-C: Wild at Heart
-D: Birdy
+A: 'Face/Off'
+B: 'Bringing Out the Dead'
+C: 'Wild at Heart'
+D: 'Birdy'
 """)
 
 answer2 = str(input())
@@ -47,7 +47,7 @@ if answer2 == "D":
 else:
 
     print("""
-WRONG! Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of a tortured Vietnam veteran in Birdy.
+WRONG! Cage had four teeth removed and his face bandaged for several weeks straight while acting the part of an injured veteran in 'Birdy'.
     """)
 
 print("QUESTION THREE:")
@@ -69,7 +69,7 @@ if answer3 == "B":
 else:
 
     print("""
-WRONG! To inter his mortal remains, Cage has prepared an obsidian pyramid tomb in a historic above ground cemetery in the Jazz Quarter of New Orleans.
+WRONG! Cage's obsidian pyramid will rest in a historic aboveground cemetery in the Jazz Quarter of New Orleans.
     """)
 
 print("QUESTION FOUR:")
@@ -77,7 +77,7 @@ print("""
 Which of the following bizarre objects has Nicolas Cage NOT purchased?
 A: The most haunted house in America, previously owned by a serial killer
 B: Dinosaur skull, subsequently repatriated to the government of Mongolia
-C: A medieval forgery of the Shroud of Turin
+C: A forgery (we think) of the Declaration of Independence
 D: An octopus, purported to help him with his acting
 """)
 
@@ -91,12 +91,12 @@ if answer4 == "C":
 else:
 
     print("""
-WRONG! As far as we are aware, Nic Cage has no interest in falsified religious artifacts. Everything else is true, though.
+WRONG! He stole the Declaration of Independence. He bought everything else.
     """)
 
 print("QUESTION FIVE:")
 print("""
-Nicolas Cage changed his name to avoid accusations of nepotism. He once shared a surname with which of the following directors?
+Nicolas Cage changed his name to avoid accusations of nepotism. He once shared a surname with which famed film director?
 A: Francis Ford Coppola
 B: Sergio Leone
 C: Federico Fellini
@@ -131,11 +131,11 @@ if answer6 == "C":
 
     print("CORRECT!")
     score = score + 1
-
+   
 else:
 
     print("""
-WRONG! Nicolas Cage ate a cockroach on screen, in his cult classic Vampire's Kiss.
+WRONG! Nicolas Cage ate a cockroach on screen in 'Vampire's Kiss'. Technically speaking, he did not eat The Bees.
     """)
 
 print("QUESTION SEVEN:")
@@ -157,7 +157,7 @@ if answer7 == "D":
 else:
 
     print("""
-WRONG! At the peak of his stardom, Nicolas Cage's agents had to talk him out of taking on independent movies under the pseudonym Miles Lovecraft.
+WRONG! At the peak of his stardom, Nicolas Cage's agents had to talk him out of taking on indie horror movies under the pseudonym Miles Lovecraft.
     """)
 
 print("QUESTION EIGHT:")
@@ -166,7 +166,7 @@ Which of the following directors has NOT worked with Nicolas Cage?
 A: John Woo
 B: David Lynch
 C: John Carpenter
-D: Martin Scorsese
+D: Werner Herzog
 """)
 
 answer8 = str(input())
@@ -184,11 +184,11 @@ WRONG! Unfortunately for us all, Nicolas Cage has never worked with John Carpent
 
 print("QUESTION NINE:")
 print("""
-Nicolas Cage named his first son Weston, and his second son what?
-A: Charles Xavier
+Nicolas Cage named his first son Weston, his daughter August, and his second son what?
+A: Elvis Presley
 B: Kal=El
 C: Cesare
-D: Bruce Wayne
+D: Clark Kent
 """)
 
 answer9 = str(input())
@@ -201,16 +201,16 @@ if answer9 == "B":
 else:
 
     print("""
-WRONG! Nicolas Cage's second son is named Kal-El Cage, in honor of Superman, who he nearly played.
+WRONG! Nicolas Cage's second son is named Kal-El Cage, in honor of Superman.
     """)
 
 print("QUESTION TEN:")
 print("""
-Upon making a surprise appearance at a public marathon of the complete CAGEOGRAPHY, Nicolas Cage favored the audience with a dramatic reading of what?
-A: The Tell-Tale Heart
-B: I Have No Mouth and I Must Scream
-C: The Lottery
-D: In the Mountains of Madness
+Upon making a surprise appearance at a public marathon of the CAGEOGRAPHY, Nicolas Cage favored the audience with a dramatic reading of what?
+A: 'The Tell-Tale Heart'
+B: 'I Have No Mouth and I Must Scream'
+C: 'Hamlet'
+D: 'In the Mountains of Madness'
 """)
 
 answer10 = str(input())
@@ -223,32 +223,71 @@ if answer10 == "A":
 else:
 
     print("""
-WRONG! Upon crashing a CAGEATHON in an Austin theater, Cage blessed us mere mortals with a reading of 'The Tell-Tale Heart'.
+WRONG! Upon crashing a CAGEATHON in an Austin theater in 2018, Nicolas Cage blessed us mere mortals with a reading of 'The Tell-Tale Heart'.
     """)
 
+print("QUESTION ELEVEN:")
+print("""
+Which of these parts was NOT offered to Nicolas Cage?
+A: Aragorn, in 'Lord of the Rings'
+B: Ethan Hunt, in 'Mission: Impossible'
+C: Superman, in the titular remake
+D: Neo, in 'The Matrix'
+""")
 
-score = 100 * float(score/10)
+answer11 = str(input())
+
+if answer11 == "B":
+
+    print("CORRECT!")
+    score = score + 1
+
+else:
+
+    print("""
+WRONG! Nicolas Cage passed up lead parts in 'Superman', 'The Matrix', and 'Lord of the Rings', so he could be involved in his children's lives.
+""")
+    
+score = 100 * float(score/11)
 
 print("Your score will now be tabulated according to our patented CAGE GAUGE.")
 print("YOU SCORED " + str(score) + "%")
 
 if score < 59:
-    print("Get out of here.")
+    print("""
+You are a CAGELET.
+Get out of here.
+""")
 
 elif 59 < score < 70:
-    print("You have attained the rank of CAGE PLEBEIAN. It could be worse.")
+    print("""
+You have attained the rank of NIC NOVITIATE.
+It could be worse.
+""")
 
 elif 69 < score < 80:
-    print("You have attained the rank of CAGE JOURNEYMAN. A good start on your journey to NIC NIRVANA.")
+    print("""
+You have attained the rank of ACOLYTE OF CAGELORE.
+A good start on your journey to NIC NIRVANA.
+""")
 
 elif 79 < score < 90:
-    print("You have attained the rank of CAGE AFICIONADO. Study the sacred texts, and you will be sure to find a place in the CAGE CABAL.")
+    print("""
+You have attained the rank of CAGE AFICIONADO.
+Study the sacred texts, and you too shall one day find a place in the CAGE CABAL.
+""")
 
-elif 89 < score < 99:
-    print("You have attained the rank of CAGEHEAD EMERITUS, but the CAGE CABAL does not yet grant you the title of CAGE SAGE.")
+elif 89 < score < 100:
+    print("""
+You have attained the rank of CAGEHEAD EMERITUS.
+Wise are you in the ways of CAGECRAFT - but the CAGE CABAL does not yet grant you the title of CAGE SAGE.
+""")
 
 elif score == 100:
-    print("You are a true CAGE SAGE. The gods kneel before your titanic prowess.")
+    print("""
+You are a true CAGE SAGE!
+The gods themselves kneel before your titanic prowess. The CAGE CABAL welcomes you, O Enlightened One!
+""")
 
 print("Thank you for testing your CAGECRAFT at the NICOLAS CAGE TOURNAMENT OF CHAMPIONS!")
 
