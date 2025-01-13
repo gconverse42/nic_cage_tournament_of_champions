@@ -251,7 +251,7 @@ WRONG! Nicolas Cage passed up lead parts in 'Superman', 'The Matrix', and 'Lord 
 score = 100 * float(score/11)
 
 print("Your score will now be tabulated according to our patented CAGE GAUGE.")
-print("YOU SCORED " + str(score) + "%")
+print("YOU SCORED " + str(round(score,2)) + "%")
 
 if score < 59:
     print("""
